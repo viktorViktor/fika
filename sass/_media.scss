@@ -1,0 +1,38 @@
+@media screen and (max-width: 1024px) {
+
+  .row {
+    width: 100%;
+    max-width: 100%;
+    .col {
+      &.one,
+      &.two,
+      &.three,
+      &.four,
+      &.five,
+      &.six,
+      &.seven,
+      &.eight,
+      &.nine,
+      &.ten,
+      &.eleven,
+      &.twelve {
+        width: $row-width !important;
+        float: none;
+        clear: both;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .btn {
+    width: $row-width !important;
+    float: none;
+    clear: both;
+    display: block;
+  }
+
+}

@@ -1,0 +1,29 @@
+.btn {
+	display: inline-block;
+	margin-bottom: 20px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	text-align: center;
+	font: {
+		family: $btn-font;
+		weight: 700;
+		size: $btn-font-size;
+	}
+	cursor: pointer;
+	text-decoration: none;
+	position: relative;
+	outline: none;
+	padding: {
+		top: 15px;
+		right: 25px;
+		bottom: 15px;
+		left: 25px;
+	}
+	min-width: 120px; 
+	margin-right: 20px;
+
+	&.success {@include btn($green,$white);}
+	&.secondary {@include btn($light-grey,$black);}
+	&.tertiary {@include btn($blue,$white);}
+	&.alert {@include btn($red,$white);}
+}

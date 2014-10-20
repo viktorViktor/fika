@@ -1,0 +1,31 @@
+/*
+      grid
+*/
+
+$row-width: 100%;
+$col-count: 12;
+$single-col: $row-width / $col-count;
+
+.row {
+  clear: both;
+  display: table;
+  width: 100%;
+  
+   .col { 
+ 	  display: table-cell;
+    padding: 10px;
+   
+    &.one {width: $single-col;}
+    &.two {width: $single-col * 2;}
+    &.three {width: $single-col * 3;}
+    &.four {width: $single-col * 4;}
+    &.five {width: $single-col * 5;}
+    &.six {width: $single-col * 6;}
+    &.seven {width: $single-col * 7;}
+    &.eight {width: $single-col * 8;}
+    &.nine {width: $single-col * 9;}
+    &.ten {width: $single-col * 10;}
+    &.eleven {width: $single-col * 11;}
+    &.twelve {width: $single-col * 12;}
+  }
+}

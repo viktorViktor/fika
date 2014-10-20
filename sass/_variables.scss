@@ -1,0 +1,53 @@
+/* 
+
+	variables
+
+*/
+
+//	basic colors
+
+	$black: 			#1c1c1c;
+	$white: 			#ffffff;
+	$grey: 				#999999;
+	$dark-grey: 		#444444;
+	$light-grey: 		#dedede;
+	
+	$red: 				#dc1629;
+	$orange: 			#f05d2c;
+	$yellow: 			#ffdc01;
+	$green: 			#009c4b;
+	$blue: 				#0072bc;
+	$indigo: 			#630460;
+	$violet: 			#9e005d;
+
+//	element-specific variables
+
+	$link-color: 		$grey;
+	$body-color: 		$black;
+	$header-color: 		$black;
+	$body-bg: 			$white;
+	$selection:			$dark-grey;
+	$selection-text:	$white;
+
+	$em-base:			21px;
+	$serif:				"Adobe Caslon Pro", "Georgia", serif;
+	$sans:				"Proxima Nova","Helvetica", sans-serif;
+	$font-stack:		$serif;
+	$header-font:		$sans;
+	$btn-font:			$sans;
+	$btn-font-size:		$em-base * 0.7;
+	
+
+	$body-width:		1440px;
+	$p-width:			$body-width / 2;
+
+//  z-indexes
+
+	$z-0: 				0;
+	$z-1: 				100;
+	$z-2: 				200;
+	$z-3: 				300;
+	$z-4: 				400;
+	$z-5:				500;
+
+
